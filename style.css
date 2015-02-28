@@ -1,0 +1,148 @@
+/*
+Theme Name: MyTheam
+Theme URI: https://www.youtube.com/channel/UCVH6SJ_ORyVK9e8ZzH_Q7Vg
+Author: FireBird
+Author URI: https://www.youtube.com/channel/UCVH6SJ_ORyVK9e8ZzH_Q7Vg
+Description: Beginer Level Theme
+Version: 1.0
+License: 
+License URI: 
+Tags: barcelona
+
+
+*/
+body {
+	f font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+
+
+}
+
+.site-header{
+	border-bottom: 2px solid #999;
+}
+.site-footer{
+	border-top: 2px solid #999;
+	margin-top: 100px;
+	
+}
+article.post{
+	border-bottom: 2px dotted #bbbbbb;
+
+
+
+
+}
+article.post:last-of-type{
+
+border-bottom: none;
+
+
+}
+/* Standard Nav Menu */
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+}
+
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+	display: block;
+}
+
+/* Header Nav Menu */
+
+
+
+.container{
+
+	 background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+
+.site-header nav {
+	margin-top: 30px;
+}
+
+.site-header nav ul li {
+	margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	padding: 10px 17px;
+	text-decoration: none;
+	border: 1px solid #DDD;
+	border-bottom: none;
+}
+
+.site-header nav ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	font-weight: bold;
+	background-color: #006ec3;
+	color: #FFF;
+}
+
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: none;
+	font-size: 84%;
+}
+
+/* Footer Nav Menu */
+.site-footer nav {
+	margin: 30px 0 10px 0;
+}
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #DDD;
+}
+
+.site-footer nav ul li:last-of-type {
+	border-right: none;
+}
+/* Page Layout */
+article.page h2 {
+	font-size: 225%;
+	margin-bottom: 15px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.post h2{
+
+
+
+}
+.main-column{
+	width:66%;
+	float: left;
+
+
+}
+.secondary-column{
+
+	width: 30%;
+	float: right;
+}
